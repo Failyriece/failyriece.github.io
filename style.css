@@ -1,0 +1,25 @@
+body{
+    font-size: 62.5%;
+    margin: 0px;
+}
+
+header{
+    height: 500px;
+    background:center/cover url(img/Background.jpg);
+    text-align: center;
+    padding-top: 1px;
+}
+
+header h1{
+    padding-top: 150px;
+    font-size: 6em;
+    color: rgb(37, 37, 37);
+    text-shadow: rgb(145, 79, 130) 1px 0 10px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+header h1:hover{
+    transform: scale(1.2) translate(0px, -10px);
+}
+
